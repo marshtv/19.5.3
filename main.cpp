@@ -18,7 +18,9 @@ int main() {
 			last_name_max = last_name;
 		}
 	}
-	std::cout << 
 	payroll.close();
+	std::cout << "Sum of payments = " << sum << std::endl;
+	std::cout << "Max payment " << max_pay << " received by " << first_name_max << " " << last_name_max << std::endl;
+
 	return 0;
 }
